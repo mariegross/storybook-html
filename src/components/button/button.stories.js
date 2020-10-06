@@ -7,4 +7,4 @@ export default { title: "Components/Button" };
 
 export const withText = () => buttonText;
 export const withLogo = () => buttonLogo;
-export const buttonPlay = () => buttonPlay;
+export const buttonplay = () => buttonPlay;
