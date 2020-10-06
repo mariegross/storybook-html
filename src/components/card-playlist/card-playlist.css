@@ -1,0 +1,16 @@
+.card-pl {
+  background-image: url(https://cdn-sharing.adobecc.com/id/urn:aaid:sc:US:22fcc34c-f211-4053-8bb2-4081e290c0c3;version=0?component_id=5bf9e3dd-7bb1-4ac5-89a6-ed81fcd1cd0a&api_key=CometServer1&access_token=1602033348_urn%3Aaaid%3Asc%3AUS%3A22fcc34c-f211-4053-8bb2-4081e290c0c3%3Bpublic_58c8af4e9114bf070b6307aaf55cf19e37112832);
+  width: 188px;
+  height: 128px;
+}
+
+.card-pl-text {
+  color: #eeeeee;
+  text-align: left;
+}
+
+.title-pl {
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0.28px;
+}
