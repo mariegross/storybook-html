@@ -1,32 +1,23 @@
-.card-pl {
-  background-color: #000000;
-  opacity: 0.55;
-  background-image: url(https://cdn-sharing.adobecc.com/id/urn:aaid:sc:US:22fcc34c-f211-4053-8bb2-4081e290c0c3;version=0?component_id=5bf9e3dd-7bb1-4ac5-89a6-ed81fcd1cd0a&api_key=CometServer1&access_token=1602033348_urn%3Aaaid%3Asc%3AUS%3A22fcc34c-f211-4053-8bb2-4081e290c0c3%3Bpublic_58c8af4e9114bf070b6307aaf55cf19e37112832);
-  width: 188px;
-  height: 128px;
-  position: fixed;
+.nav-bottom {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  height: 67px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.card-pl-text {
+.text {
   font-family: "Circular Std Book", sans-serif;
-  color: #eeeeee;
-  text-align: left;
-  position: relative;
-  width: 100%;
-  height: 50%;
-  top: 65%;
-  left: 10%;
+  font-size: 10px;
+  color: #63666e;
+  padding-top: 6px;
 }
 
-.title-pl {
-  margin: 0;
-  font-size: 14px;
-  text-align: left;
-  letter-spacing: 0.28px;
-}
-
-.subline-pl {
-  margin: 0;
-  font-size: 11px;
-  color: #c1c0c0;
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
