@@ -1,6 +1,6 @@
 import "./nav.css";
 import navbottom from "./nav.html";
 
-export default { title: "Components/Nav" };
+export default { title: "Components/BottomNavigation" };
 
-export const NavBottom = () => navbottom;
+export const HomeActive = () => navbottom;
