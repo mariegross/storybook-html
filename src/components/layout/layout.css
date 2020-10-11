@@ -1,0 +1,66 @@
+.app-layout {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  display: flex;
+  min-height: 56px;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Circular Std Medium", sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.34px;
+}
+
+.menu-list {
+  display: grid;
+  width: 100vw;
+  max-height: 60%;
+  grid-template-rows: repeat(6, auto);
+}
+
+.nav-bottom {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 67px;
+  width: 100vw;
+  max-width: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 -5px 10px 1px black;
+}
+
+.text-active {
+  color: #d9519d;
+  font-family: "Circular Std Book", sans-serif;
+  font-size: 10px;
+  padding-top: 6px;
+}
+
+.text {
+  font-family: "Circular Std Book", sans-serif;
+  font-size: 10px;
+  color: #63666e;
+  padding-top: 6px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:first-of-type {
+  margin-left: 10px;
+}
+
+.item:last-of-type {
+  margin-right: 10px;
+}
