@@ -7,10 +7,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-bg: #181b2c;
+  --lightmode-bg: white;
+  --main-text: white;
+  --lightmode-text: #181b2c;
+}
+
 html {
   font-size: 16px;
-  background-color: #181b2c;
-  color: #ffffff;
+  background-color: var(--main-bg, #181b2c);
+  color: var(--main-text);
 }
 
 body {
