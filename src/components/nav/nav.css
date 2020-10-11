@@ -3,7 +3,6 @@
   border-bottom: 1px solid black;
   height: 67px;
   width: 100vw;
-  max-width: 480px;
   display: flex;
   align-items: center;
   justify-content: space-around;
