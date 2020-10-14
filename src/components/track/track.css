@@ -1,0 +1,46 @@
+.track {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+.track > :not(:last-child) {
+  margin-right: 20px;
+}
+
+.track__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.track__text > h4 {
+  font-size: 0.8215rem;
+  color: #a3a4ab;
+}
+
+.track__text > p {
+  font-size: 0.625rem;
+  color: #595b68;
+}
+
+.track__text > * {
+  margin: 2px;
+  font-family: "Circular Std Book", sans-serif;
+}
+
+.img__artist {
+  height: 46px;
+  width: 46px;
+}
+
+.border {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #595b68;
+}
+
+.track__btn {
+  background: none;
+  border: none;
+}
